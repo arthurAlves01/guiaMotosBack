@@ -85,7 +85,7 @@ input{
 
 #esqueciMinhaSenha{
     color: darkred;
-    margin-left: 150px;
+    margin-left: 239px;
     font-size: 15px;
     position: relative;
 }
@@ -100,7 +100,7 @@ login {
     padding-bottom: 20px;
 }
 body{
-    background-image: url(../Imagens/farolmoto.png);
+    background-image: url(../img/farolmoto.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;

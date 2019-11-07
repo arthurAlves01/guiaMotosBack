@@ -22,14 +22,14 @@
 	<nav
 		class="navbar navbar-dark .bg-dark navbar-expand-lg navbar-dark bg-primary">
 		<img id="imagemLogoNav" src="../static/img/moto1.png"><a
-			id="nomeTitulo" class="navbar-brand" href="index.html">Guia Motos</a>
+			id="nomeTitulo" class="navbar-brand" href="{% url 'home' %}">Guia Motos</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarSite">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSite">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"><a id="navConfig" class="nav-link text-white" href="login.html">Login</a></li>
+				<li class="nav-item"><a id="navConfig" class="nav-link text-white" href="{% url 'login' %}">Login</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -62,7 +62,7 @@
 </div>
     
     <div id="cliqueAqui"class="container">
-        <a id="bComecar" class="btn btn-primary" href="exibir.html" role="button">Clique aqui para começar</a>
+        <a id="bComecar" class="btn btn-primary" href="{% url 'exibir' %}" role="button">Clique aqui para começar</a>
     </div>
     
     <script src="../static/js/jquery.js"></script>
